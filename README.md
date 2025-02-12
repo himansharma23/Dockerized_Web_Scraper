@@ -3,14 +3,18 @@
 This project demonstrates how to build a Dockerized web scraper using Python. The scraper extracts movie quotes from a website and stores the collected data in a MySQL database running in a separate Docker container. The setup ensures seamless container communication using a custom Docker bridge network.
 
 🔹 Features:
+
 Web Scraping with Python – Utilizes requests and BeautifulSoup for extracting data.
 Dockerized MySQL Database – Stores the scraped quotes efficiently.
+
 🛠️ Prerequisites:
+
 Docker installed on your system.
 Basic knowledge of Docker and Python.
 Required Python Packages: requests, BeautifulSoup, mysql-connector-python.
 
 ⚙️ SQL Setup Commands:
+
 1️⃣ Start a MySQL container:
 
 bash
